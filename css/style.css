@@ -20,6 +20,7 @@ HEADER
     left: 0;
     background-color: white;
     width: 100%;
+    z-index: 2;
 }
 
 #main-header h1 {
@@ -46,13 +47,17 @@ MAIN
     width: 700px;
     margin: auto;
     list-style-type: none;
-    vertical-align: bottom;
+    z-index: 2;
 }
 
 #main li {
     display: inline-block;
     margin: 1%;
     position: relative;
+}
+
+#main img {
+    display: block;
 }
 
 #main p.kittylabel {
