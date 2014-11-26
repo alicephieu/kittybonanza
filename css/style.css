@@ -46,15 +46,16 @@ MAIN
     width: 700px;
     margin: auto;
     list-style-type: none;
+    vertical-align: bottom;
 }
 
-#main ul li {
+#main li {
     display: inline-block;
     margin: 1%;
     position: relative;
 }
 
-#main ul li p.kittylabel {
+#main p.kittylabel {
     position: absolute;
     bottom: 0;
     margin: 0;
