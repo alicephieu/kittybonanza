@@ -1,0 +1,66 @@
+/***************************
+GENERAL STYLES
+****************************/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+/***************************
+HEADER
+****************************/
+
+#main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+}
+
+#main-header h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+/***************************
+MAIN
+****************************/
+
+#main {
+    background-color: pink;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#main h2 {
+    font-weight: bold;
+}
+
+#main ul.gallery {
+    width: 75%;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+#main ul li {
+    display: inline-block;
+    margin: 1%;
+    position: relative;
+}
+
+#main ul li p.kittylabel {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: 100%;
+}
