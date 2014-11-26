@@ -44,8 +44,8 @@ MAIN
 }
 
 #main ul.gallery {
-    width: 50%;
-    margin: 0 auto;
+    width: 700px;
+    margin: auto;
     list-style-type: none;
 }
 
