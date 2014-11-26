@@ -10,7 +10,6 @@ html {
     box-sizing: inherit;
 }
 
-
 /***************************
 HEADER
 ****************************/
@@ -36,7 +35,7 @@ MAIN
 #main {
     background-color: pink;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 90px;
 }
 
 #main h2 {
